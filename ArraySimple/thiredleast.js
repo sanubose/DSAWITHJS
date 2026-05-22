@@ -2,7 +2,7 @@ function findThirdLeast(arr){
 let first=Infinity;
 let Second=Infinity;
 let Third=Infinity;
-for(let i =0; i<arr.length; i++){
+for(let i =0;  i<arr.length; i++){
    if(arr[i]<first){
       Third=Second;
       Second=first;
